@@ -1,4 +1,4 @@
-# Sum Of Multiples
+# Ruby: Sum Of Multiples
 
 Write a program that, given a number, can find the sum of all the multiples of particular numbers up to but not including that number.
 
@@ -10,17 +10,19 @@ The sum of these multiples is 78.
 Write a program that can find the sum of the multiples of a given set of
 numbers.
 
-This exercise is currently under revision.
-You are still free to do this exercise and submit solutions.
-Depending on whether this track has been updated recently,
-the tests may differ between this track and other tracks.
+The tests use the Minitest testing framework. To install it run the command:
 
-In most tracks, the set of numbers must be explicitly provided.
-In some other tracks, if no set of numbers is given, it defaults to 3 and 5.
-We would like all tracks to require the set of numbers be explicit.
+    gem install minitest
 
-If you would like to help out, please join us at
-https://github.com/exercism/x-common/issues/198.
+Run the tests with the `ruby` command:
+
+    ruby sum_of_multiples_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
 
 ## Source
 
@@ -30,3 +32,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
